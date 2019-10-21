@@ -2,8 +2,8 @@ import os
 import sys
 
 from pyplantuml import adapter
-from pyplantuml import writer
 from pyplantuml import online
+from pyplantuml import writer
 
 
 def parseArgs(args):
@@ -29,7 +29,7 @@ def fixDiagramTitle(diadefs, title):
 def main(convert_online=False):
     args = sys.argv[1:]
     if not args:
-        print ("""
+        print("""
 pyplantuml
 ----------
 

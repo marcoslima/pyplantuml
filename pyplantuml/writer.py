@@ -2,7 +2,6 @@ import os
 
 from pylint.pyreverse.utils import is_interface
 
-
 EMPTY = "\n"
 STARTUML = "@startuml\n"
 ENDUML = "@enduml\n"
@@ -41,14 +40,14 @@ classes = "{package}_classes.txt"
 packages = "{package}_packages.txt"
 
 relationship2plantuml = {
-    "specialization" : EXTENSION,
-    "association" : AGGREGATION,
-    "implements" : COMPOSITION
+    "specialization": EXTENSION,
+    "association": AGGREGATION,
+    "implements": COMPOSITION
 }
 attr2type = {
-    "public" : "+",
-    "protected" : "#",
-    "private" : "-"
+    "public": "+",
+    "protected": "#",
+    "private": "-"
 }
 
 
